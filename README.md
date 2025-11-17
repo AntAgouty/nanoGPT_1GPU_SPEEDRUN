@@ -1,8 +1,9 @@
 # NanoGPT-124M — In a Cave With a Box of Scraps
 
-This is an effort to train NanoGPT (gpt-2 128m) from scratch using a billion tokens of FineWeb to lower than 3.29 validation loss as fast as possible using just one single consumer 4090.
+This is an effort to speedrun training NanoGPT (gpt-2 124M) on a single consumer 4090 from scratch using FineWeb data. The goal is to hit 3.29 validation loss (or less) as fast as possible using just one single consumer 4090.
 
-I will set a baseline and provide all training an inference code, along with the trained model checkpoint. 
+I will set a baseline and provide all training an inference code here, along with the trained model checkpoints at this huggingface link:
+https://huggingface.co/DevParker/NanoGPT-124m-In-A-Cave-With-A-Box-Of-Scraps
 
 ---
 
