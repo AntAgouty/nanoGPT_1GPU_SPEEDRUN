@@ -39,7 +39,7 @@ If you beat this, open a PR updating the table with your numbers and a short des
 Single-GPU, from-scratch GPT-2-style training to **3.286 validation loss** in about **115 minutes** on a **single RTX 4090**, with:
 
 * **124M parameters**
-* **32K context length**
+* **1024 context length**
 * ~**0.92B tokens** trained
 * Up to **~130–140k tokens/sec** effective training throughput
 * Lots of helpful custom architecture (U-Net-ish GPT-2, Muon optimizer, FlexAttention, smear/backout tricks) 
