@@ -25,8 +25,8 @@ I have provided all training and inference code here, along with the trained mod
 
 | Current Run | Trainer | Hardware | Tokens Trained | Val Loss | Time to Target | Throughput | Training Script |
 |---|---|---|---|---|---|---|---|
-| 1 | DevParker | 1× RTX 4090 | ~0.92B | **3.25** | ~90 minutes | ~160k tok/s (peak) | `train_gpt2_4090_90min_3_25loss.py` | `prepare_edu.py`     |
-| 2 | DevParker | 1× RTX 4090  | ~0.92B         | **3.286** @ step 1750 | ~115 minutes | ~130–140k tokens/s      | `train_gpt_improved.py` | `python train_gpt_improved.py`     | 
+| 1 | DevParker | 1× RTX 4090 | ~0.92B | **3.25** avg last 10 @ step 1750 | ~90 minutes | ~160k tok/s (peak) | `train_gpt2_4090_90min_3_25loss.py` | `prepare_edu.py`     |
+| 2 | DevParker | 1× RTX 4090  | ~0.92B         | **3.286** avg last 10 @ step 1750 | ~115 minutes | ~130–140k tokens/s      | `train_gpt_improved.py` | `python train_gpt_improved.py`     | 
 
 ---
 
